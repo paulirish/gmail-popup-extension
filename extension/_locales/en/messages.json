@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "gmail popup",
+    "description": "open gmail in a popup"
+  },
+  "appDescription": {
+    "message": "Launch gmail in its own popup window",
+    "description": "Because that's nice sometimes"
+  }
+}
