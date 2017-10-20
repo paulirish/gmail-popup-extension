@@ -20,5 +20,21 @@
 			"38": "images/icon-38.png"
 		},
 		"default_title": "gmail popup"
-	}
+	},
+	"web_accessible_resources" : [
+		"scripts/gmail_better-injected.js",
+		"styles/gmail_better-injected.css"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://mail.google.com/mail/*"
+			],
+			"js": [
+				"scripts/contentscript.js"
+			],
+			"run_at": "document_end",
+			"all_frames": false
+		}
+	]
 }

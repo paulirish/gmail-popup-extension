@@ -1,0 +1,7 @@
+
+/* inbox: hide those action badges */
+.aKS { display: none; }
+.a4X { padding-right: 0 !important; }
+
+/* inbox: no gap between snippet and time */
+.yg { width: 0px; }
